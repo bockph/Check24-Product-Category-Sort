@@ -1,0 +1,16 @@
+.limit {
+    max-height: 280px;
+    overflow-y: auto;
+}
+div.dropdown-menu.open{
+  max-height: 314px !important;
+  overflow: hidden;
+}
+ul.dropdown-menu.inner{
+  max-height: 260px !important;
+  overflow-y: auto;
+}
+.restrictSelect{
+     max-height: 260px !important;
+
+}

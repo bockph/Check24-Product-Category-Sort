@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Check24 Category Sort Example</title>
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>-->
+    <script src="https://cdn.plot.ly/plotly-2.9.0.min.js"></script>
+    <!--    <link rel="stylesheet" type="text/css"-->
+    <!--          href="https://bootstrap-table.com/docs/extensions/filter-control/bootstrap-table-filter-control.css">-->
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.css">
+    <script src="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+
+<body onload="get_docs()">
+<div class="container">
+    <div class="jumbotron">
+        <h1> Search query</h1>
+    </div>
+
+    <div class="row">
+        <div class="input-group mb-3">
+            <input value="Enter your query here..." id="search_query" type="text" class="form-control"
+                   placeholder="Enter your query here..."
+                   aria-label="1" aria-describedby="basic-addon2">
+        </div>
+
+    </div>
+    <button class="btn btn-success" onclick="process_query()">Perform Evaluation</button>
+
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+                <h1> Original Sorting</h1>
+            </div>
+            <ol id="org_sorting">
+
+            </ol>
+
+        </div>
+        <div class="col">
+            <div class="jumbotron">
+                <h1> New Sorting</h1>
+            </div>
+            <ol id="new_sorting">
+
+            </ol>
+        </div>
+
+    </div>
+
+
+
+    <!--    <div id="histo" style="   margin: auto;width:1000px;height:400px;"></div>-->
+    <!--    <hr style="width:100%;text-align:left;margin-left:0">-->
+    <!--     <div id="sentBox" class=" overflow-auto row align-items-start">-->
+    <!--    <div class=" col">-->
+
+    <!--    </div>-->
+    <!--    <div class="col">-->
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+<script>
+
+    function process_query() {
+        var endpoint ="/process"
+        var query = document.getElementById("search_query").value;
+        var orig_sorting_element = document.getElementById("org_sorting");
+        var new_sorting_element = document.getElementById("new_sorting");
+        orig_sorting_element.innerHTML=''
+        new_sorting_element.innerHTML=''
+        $.ajax({
+            type: 'POST',
+            url: endpoint,
+            data: JSON.stringify({
+                "search_query": query
+            }),
+            contentType: 'application/json',
+            Accept: 'application/json',
+            // cache: false,
+            processData: false,
+            success: function (data) {
+                window.localStorage.setItem('response', JSON.stringify(data))
+                for (var i = 0; i < data.org_list.length; i++) {
+
+                var li = document.createElement("li");
+                li.innerHTML = data.org_list[i]
+                orig_sorting_element.appendChild(li)
+                var li = document.createElement("li");
+                li.innerHTML = data.new_list[i][0] +'   ('+data.new_list[i][1]+')'
+                new_sorting_element.appendChild(li)
+
+            }
+            }
+        });
+
+
+
+
+
+
+
+
+    }
+
+</script>
+</html>
