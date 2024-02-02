@@ -64,24 +64,23 @@ def import_group_data(from_db=False, database_name="pv_data_import"):
         group['id'] = group['id'].astype(int)
     return group
 
-def import_comparison_group_data(from_db=False, database_name="c24_test_community"):
+def import_comparison_group_data(old_name,new_name,from_db=False, database_name="c24_test_community"):
     if from_db:
         print("Start pulling Group Comparison DATA from DB")
         dbConnection = create_connection(database_name=database_name)
 
-        # group_old = pd.read_sql(sa.text("select * from `group`"), con=dbConnection)
-        # group_old.to_pickle("db_group_old_comparison.p")
+        group_old = pd.read_sql(sa.text("select * from `"+old_name+"`"), con=dbConnection)
+        group_old.to_pickle("db_group_old_comparison.p")
 
-        group_new = pd.read_sql(sa.text("select * from `group_new2`"), con=dbConnection)
+        group_new = pd.read_sql(sa.text("select * from `"+new_name+"`"), con=dbConnection)
         group_new.to_pickle("db_group_new2_comparison.p")
-        group_old = pd.read_pickle("db_group_new_comparison.p")
 
 
 
         dbConnection.close()
     else:
         group_old = pd.read_pickle("db_group_old_comparison.p")
-        group_new = pd.read_pickle("db_group_new_comparison.p")
+        group_new = pd.read_pickle("db_group_new2_comparison.p")
 
     return group_old, group_new
 
@@ -155,7 +154,9 @@ def import_pv_data(from_db=False, database_name="pv_data_import"):
     pv_regions=pv_regions.merge(pv_region_center, on="pv_region_id", how="left")
     pv_regions[['pv_region_latitude','pv_region_longitude']]=pv_regions[['pv_region_latitude','pv_region_longitude']].astype(float)
 
-
+    pv_hotels.drop(columns=['city_id','region_id','country_id'], inplace=True)
+    pv_hotels.rename(columns={"id": "pv_hotel_id", "name": "pv_hotel_name", "latitude": "pv_hotel_latitude",
+                                "longitude": "pv_hotel_longitude"},inplace=True)
     #TODO calculate geocoordinates for countries and regions
     return pv_countries,pv_regions,pv_cities, pv_hotels
 
@@ -251,7 +252,7 @@ def import_hotel_data(from_db=True, database_name="pv_data_import"):
     hotel_regions['hotel_region_id'] = hotel_regions['hotel_region_id'].astype(int)
 
     # convert region names using pv-hote-region-mapping
-    region_mapping = pd.read_csv("region_mapping.csv", delimiter=";",decimal=",")
+    region_mapping = pd.read_csv("region_mapping.csv", delimiter=",",decimal=",")
     replace_dict = pd.Series(region_mapping.pv_region_name.values, index=region_mapping.hotel_region_name).to_dict()
     hotel_regions['hotel_region_name'] = hotel_regions['hotel_region_name'].replace(replace_dict)
 
@@ -272,6 +273,15 @@ def import_hotel_data(from_db=True, database_name="pv_data_import"):
     hotel_cities['hotel_region_id'] = hotel_cities['hotel_region_id'].fillna(-1).astype(int)
 
 
+    hotel.rename(columns={"id": "hotel_hotel_id", "hotel_name": "hotel_hotel_name", "city_id": "hotel_city_id",
+                          "pauschalreise_hotel_id": "origmapping_pv_hotel_id",
+                          "pauschalreise_city_id": "origmapping_pv_city_id",
+                          "pauschalreise_area_id": "origmapping_pv_region_id",
+                          "country_name":"hotel_country_name","city_name":"hotel_city_name",
+                          "latitude": "hotel_hotel_latitude", "longitude": "hotel_hotel_longitude"},inplace=True)
+    hotel.drop("coordinates",axis=1,inplace=True)
+    hotel = hotel.merge(hotel_cities[['hotel_city_id','hotel_region_id','hotel_country_id']], on="hotel_city_id", how="left")
+    hotel[['hotel_hotel_latitude','hotel_hotel_longitude']]=hotel[['hotel_hotel_latitude','hotel_hotel_longitude']].astype(float)
 
     return hotel_countries,hotel_regions,hotel_cities, hotel
 

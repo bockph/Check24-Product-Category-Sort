@@ -3,8 +3,9 @@ import data_loader as dl
 import difflib
 
 if __name__ == "__main__":
-    hotel_countries, hotel_regions, hotel_cities, _ = dl.import_hotel_data(from_db=False)
     pv_countries, pv_regions, pv_cities, _ = dl.import_pv_data(from_db=False)
+
+    hotel_countries, hotel_regions, hotel_cities, _ = dl.import_hotel_data(from_db=False)
     already_mapped = pd.read_csv("region_mapping_curated.csv", delimiter=";")
     already_mapped=already_mapped[~(
                 already_mapped.duplicated("pv_region_id", keep=False) | already_mapped.duplicated("hotel_region_id",

@@ -1,0 +1,2288 @@
+{
+  "clothes": {
+    "bottom": [
+      {
+        "name": "pants",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 5,
+            "name": "0005",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=5&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 7,
+            "name": "0007",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=7&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 8,
+            "name": "0008",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=8&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 10,
+            "name": "0010",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=10&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 11,
+            "name": "0011",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=11&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 12,
+            "name": "0012",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=12&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 13,
+            "name": "0013",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=13&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 22,
+            "name": "0022",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=22&name=bottom.pants&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "name": "shorts",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 1,
+            "name": "0001",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1&name=bottom.shorts&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 9,
+            "name": "0009",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=9&name=bottom.shorts&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 14,
+            "name": "0014",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=14&name=bottom.shorts&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 15,
+            "name": "0015",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=15&name=bottom.shorts&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "name": "skirt",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 100,
+            "name": "0100",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=100&name=bottom.skirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 101,
+            "name": "0101",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=101&name=bottom.skirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 102,
+            "name": "0102",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=102&name=bottom.skirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 103,
+            "name": "0103",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=103&name=bottom.skirt&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "dress": [
+      {
+        "name": "dress",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 0,
+            "name": "0",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=0&name=dress.dress&sex=female&style=mau",
+            "selected": true
+          },
+          {
+            "id": 3001,
+            "name": "3001",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=3001&name=dress.dress&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 3002,
+            "name": "3002",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=3002&name=dress.dress&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 3003,
+            "name": "3003",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=3003&name=dress.dress&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 3004,
+            "name": "3004",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=3004&name=dress.dress&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "outer": [
+      {
+        "name": "coat",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 0,
+            "name": "0",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=0&name=outer.coat&sex=female&style=mau",
+            "selected": true
+          },
+          {
+            "id": 4009,
+            "name": "4009",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=4009&name=outer.coat&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 4010,
+            "name": "4010",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=4010&name=outer.coat&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "name": "jacket",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 0,
+            "name": "0",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=0&name=outer.jacket&sex=female&style=mau",
+            "selected": true
+          },
+          {
+            "id": 4002,
+            "name": "4002",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=4002&name=outer.jacket&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 4004,
+            "name": "4004",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=4004&name=outer.jacket&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 4008,
+            "name": "4008",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=4008&name=outer.jacket&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 4011,
+            "name": "4011",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=4011&name=outer.jacket&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "shoes": [
+      {
+        "name": "shoes",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 0,
+            "name": "0",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=0&name=shoes.shoes&sex=female&style=mau",
+            "selected": true
+          },
+          {
+            "id": 2001,
+            "name": "2001",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2001&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2002,
+            "name": "2002",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2002&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2003,
+            "name": "2003",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2003&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2004,
+            "name": "2004",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2004&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2005,
+            "name": "2005",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2005&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2006,
+            "name": "2006",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2006&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2007,
+            "name": "2007",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2007&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2008,
+            "name": "2008",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2008&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2009,
+            "name": "2009",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2009&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2010,
+            "name": "2010",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2010&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2011,
+            "name": "2011",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2011&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2012,
+            "name": "2012",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2012&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2013,
+            "name": "2013",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2013&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2014,
+            "name": "2014",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2014&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2015,
+            "name": "2015",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2015&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2016,
+            "name": "2016",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2016&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2018,
+            "name": "2018",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2018&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2019,
+            "name": "2019",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2019&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 2020,
+            "name": "2020",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=2020&name=shoes.shoes&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      }
+    ],
+    "upper": [
+      {
+        "name": "crop-top",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 1001,
+            "name": "1001",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1001&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1009,
+            "name": "1009",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1009&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1019,
+            "name": "1019",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1019&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1020,
+            "name": "1020",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1020&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1021,
+            "name": "1021",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1021&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1035,
+            "name": "1035",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1035&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1036,
+            "name": "1036",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1036&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1037,
+            "name": "1037",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1037&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1038,
+            "name": "1038",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1038&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1008,
+            "name": "1008",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1008&name=upper.crop-top&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "name": "shirt",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 1006,
+            "name": "1006",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1006&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1010,
+            "name": "1010",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1010&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1012,
+            "name": "1012",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1012&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1013,
+            "name": "1013",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1013&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1014,
+            "name": "1014",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1014&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1015,
+            "name": "1015",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1015&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1016,
+            "name": "1016",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1016&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1034,
+            "name": "1034",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1034&name=upper.shirt&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "name": "t-shirt",
+        "selected_color": 0,
+        "templates": [
+          {
+            "id": 1007,
+            "name": "1007",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1007&name=upper.t-shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1017,
+            "name": "1017",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1017&name=upper.t-shirt&sex=female&style=mau",
+            "selected": false
+          },
+          {
+            "id": 1018,
+            "name": "1018",
+            "url": "https://f.mirror-ai.net/i-vis.png?category=clothes&color=1&id=1018&name=upper.t-shirt&sex=female&style=mau",
+            "selected": false
+          }
+        ]
+      }
+    ]
+  },
+  "ok": true,
+  "tabs": [
+    {
+      "name": "earring",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=earring&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=3&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=4&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=6&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=7&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=8&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 9,
+          "name": "9",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=9&name=earring&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 10,
+          "name": "10",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=10&name=earring&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "material": "eye",
+      "colors": [
+        16,
+        17,
+        15,
+        6,
+        9,
+        3,
+        21,
+        12,
+        13,
+        22,
+        18,
+        19,
+        23,
+        14,
+        4,
+        11,
+        5,
+        2,
+        7,
+        10,
+        20,
+        1,
+        8
+      ],
+      "colors_advanced": [
+        {
+          "id": 16,
+          "hex": "#7D9773"
+        },
+        {
+          "id": 17,
+          "hex": "#888B56"
+        },
+        {
+          "id": 15,
+          "hex": "#55511B"
+        },
+        {
+          "id": 6,
+          "hex": "#786E69"
+        },
+        {
+          "id": 9,
+          "hex": "#9AC8EA"
+        },
+        {
+          "id": 3,
+          "hex": "#3A2319"
+        },
+        {
+          "id": 21,
+          "hex": "#E0E3EC"
+        },
+        {
+          "id": 12,
+          "hex": "#41444E"
+        },
+        {
+          "id": 13,
+          "hex": "#14A7CC"
+        },
+        {
+          "id": 22,
+          "hex": "#000000"
+        },
+        {
+          "id": 18,
+          "hex": "#768061"
+        },
+        {
+          "id": 19,
+          "hex": "#C7C376"
+        },
+        {
+          "id": 23,
+          "hex": "#FF0000"
+        },
+        {
+          "id": 14,
+          "hex": "#4A6B8A"
+        },
+        {
+          "id": 4,
+          "hex": "#88887C"
+        },
+        {
+          "id": 11,
+          "hex": "#678B8D"
+        },
+        {
+          "id": 5,
+          "hex": "#7C8888"
+        },
+        {
+          "id": 2,
+          "hex": "#9D4616"
+        },
+        {
+          "id": 7,
+          "hex": "#B1B6C7"
+        },
+        {
+          "id": 10,
+          "hex": "#56A6A3"
+        },
+        {
+          "id": 20,
+          "hex": "#B28232"
+        },
+        {
+          "id": 1,
+          "hex": "#0B8CF1"
+        },
+        {
+          "id": 8,
+          "hex": "#7FB2C4"
+        }
+      ],
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=3&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=4&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=6&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=7&name=eye&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=8&name=eye&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "brow",
+      "material": "brow",
+      "colors": [
+        5,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        4
+      ],
+      "colors_advanced": [
+        {
+          "id": 5,
+          "hex": "#FFEEDA"
+        },
+        {
+          "id": 6,
+          "hex": "#D5702F"
+        },
+        {
+          "id": 7,
+          "hex": "#867D7E"
+        },
+        {
+          "id": 8,
+          "hex": "#C2B1A8"
+        },
+        {
+          "id": 1,
+          "hex": "#843D2A"
+        },
+        {
+          "id": 2,
+          "hex": "#222428"
+        },
+        {
+          "id": 3,
+          "hex": "#7A5744"
+        },
+        {
+          "id": 4,
+          "hex": "#AF9575"
+        }
+      ],
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=3&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=4&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=6&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=7&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=8&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 9,
+          "name": "9",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=9&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 10,
+          "name": "10",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=10&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 11,
+          "name": "11",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=11&name=brow&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 12,
+          "name": "12",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=12&name=brow&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "oval",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 5001,
+          "name": "5001",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5001&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5002,
+          "name": "5002",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5002&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5003,
+          "name": "5003",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5003&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5004,
+          "name": "5004",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5004&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5005,
+          "name": "5005",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5005&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5006,
+          "name": "5006",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5006&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5007,
+          "name": "5007",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5007&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5008,
+          "name": "5008",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5008&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5009,
+          "name": "5009",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5009&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5010,
+          "name": "5010",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5010&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5011,
+          "name": "5011",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5011&name=oval&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5012,
+          "name": "5012",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5012&name=oval&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "material": "skin",
+      "colors": [
+        5,
+        8,
+        3,
+        11,
+        12,
+        1,
+        7,
+        9,
+        4,
+        10,
+        2,
+        6
+      ],
+      "colors_advanced": [
+        {
+          "id": 5,
+          "hex": "#E7BD9E"
+        },
+        {
+          "id": 8,
+          "hex": "#C8947D"
+        },
+        {
+          "id": 3,
+          "hex": "#EFC5AE"
+        },
+        {
+          "id": 11,
+          "hex": "#906550"
+        },
+        {
+          "id": 12,
+          "hex": "#694433"
+        },
+        {
+          "id": 1,
+          "hex": "#FFDDCF"
+        },
+        {
+          "id": 7,
+          "hex": "#D5A690"
+        },
+        {
+          "id": 9,
+          "hex": "#AB7F6A"
+        },
+        {
+          "id": 4,
+          "hex": "#F2CDB6"
+        },
+        {
+          "id": 10,
+          "hex": "#96664C"
+        },
+        {
+          "id": 2,
+          "hex": "#F7CDBA"
+        },
+        {
+          "id": 6,
+          "hex": "#D5A886"
+        }
+      ],
+      "selected_color": 999999
+    },
+    {
+      "name": "ear",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=ear&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=ear&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "wrinkles",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=wrinkles&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 5001,
+          "name": "5001",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5001&name=wrinkles&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5002,
+          "name": "5002",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5002&name=wrinkles&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5003,
+          "name": "5003",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5003&name=wrinkles&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "brdmche",
+      "material": "brdmche",
+      "colors": [
+        4,
+        8,
+        9,
+        6,
+        7,
+        1,
+        11,
+        5,
+        10,
+        2,
+        3
+      ],
+      "colors_advanced": [
+        {
+          "id": 4,
+          "hex": "#5F483A"
+        },
+        {
+          "id": 8,
+          "hex": "#BA2B1E"
+        },
+        {
+          "id": 9,
+          "hex": "#BF6828"
+        },
+        {
+          "id": 6,
+          "hex": "#885135"
+        },
+        {
+          "id": 7,
+          "hex": "#BC9664"
+        },
+        {
+          "id": 1,
+          "hex": "#FCEADE"
+        },
+        {
+          "id": 11,
+          "hex": "#C6B9B0"
+        },
+        {
+          "id": 5,
+          "hex": "#7B624E"
+        },
+        {
+          "id": 10,
+          "hex": "#777374"
+        },
+        {
+          "id": 2,
+          "hex": "#59463C"
+        },
+        {
+          "id": 3,
+          "hex": "#403329"
+        }
+      ],
+      "selected_color": 999999,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=brdmche&sex=female&style=mau",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "name": "mouth",
+      "material": "mouth",
+      "colors": [
+        22,
+        1,
+        6,
+        21,
+        2,
+        26,
+        20,
+        30,
+        24,
+        32,
+        4,
+        11,
+        23,
+        27,
+        19,
+        35,
+        31,
+        28,
+        5,
+        34,
+        12,
+        29,
+        3,
+        13,
+        17,
+        9,
+        18,
+        15,
+        8,
+        25,
+        33,
+        36,
+        14,
+        10,
+        16,
+        7
+      ],
+      "colors_advanced": [
+        {
+          "id": 22,
+          "hex": "#DB2554"
+        },
+        {
+          "id": 1,
+          "hex": "#F3A290"
+        },
+        {
+          "id": 6,
+          "hex": "#C3026B"
+        },
+        {
+          "id": 21,
+          "hex": "#EF889F"
+        },
+        {
+          "id": 2,
+          "hex": "#FF2443"
+        },
+        {
+          "id": 26,
+          "hex": "#FF383A"
+        },
+        {
+          "id": 20,
+          "hex": "#CC648D"
+        },
+        {
+          "id": 30,
+          "hex": "#EF9032"
+        },
+        {
+          "id": 24,
+          "hex": "#B05C63"
+        },
+        {
+          "id": 32,
+          "hex": "#8FB3FF"
+        },
+        {
+          "id": 4,
+          "hex": "#C1474C"
+        },
+        {
+          "id": 11,
+          "hex": "#580E30"
+        },
+        {
+          "id": 23,
+          "hex": "#894B58"
+        },
+        {
+          "id": 27,
+          "hex": "#FA9290"
+        },
+        {
+          "id": 19,
+          "hex": "#C65155"
+        },
+        {
+          "id": 35,
+          "hex": "#3954B3"
+        },
+        {
+          "id": 31,
+          "hex": "#AEA7B7"
+        },
+        {
+          "id": 28,
+          "hex": "#FF689A"
+        },
+        {
+          "id": 5,
+          "hex": "#AE5B51"
+        },
+        {
+          "id": 34,
+          "hex": "#3DBED8"
+        },
+        {
+          "id": 12,
+          "hex": "#E90062"
+        },
+        {
+          "id": 29,
+          "hex": "#4D66D5"
+        },
+        {
+          "id": 3,
+          "hex": "#CF755C"
+        },
+        {
+          "id": 13,
+          "hex": "#6C05A1"
+        },
+        {
+          "id": 17,
+          "hex": "#B44943"
+        },
+        {
+          "id": 9,
+          "hex": "#E249B3"
+        },
+        {
+          "id": 18,
+          "hex": "#5E2B2E"
+        },
+        {
+          "id": 15,
+          "hex": "#F77C78"
+        },
+        {
+          "id": 8,
+          "hex": "#F95142"
+        },
+        {
+          "id": 25,
+          "hex": "#C33C31"
+        },
+        {
+          "id": 33,
+          "hex": "#027A80"
+        },
+        {
+          "id": 36,
+          "hex": "#F6C3C3"
+        },
+        {
+          "id": 14,
+          "hex": "#8B3631"
+        },
+        {
+          "id": 10,
+          "hex": "#EA90B5"
+        },
+        {
+          "id": 16,
+          "hex": "#CF497B"
+        },
+        {
+          "id": 7,
+          "hex": "#DE847A"
+        }
+      ],
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 5001,
+          "name": "5001",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5001&name=mouth&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5002,
+          "name": "5002",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5002&name=mouth&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5003,
+          "name": "5003",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5003&name=mouth&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5004,
+          "name": "5004",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5004&name=mouth&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5005,
+          "name": "5005",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5005&name=mouth&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5006,
+          "name": "5006",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5006&name=mouth&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "hat",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=hat&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=3&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=4&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=6&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=7&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=8&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 9,
+          "name": "9",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=9&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 10,
+          "name": "10",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=10&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 11,
+          "name": "11",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=11&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 12,
+          "name": "12",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=12&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 13,
+          "name": "13",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=13&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 14,
+          "name": "14",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=14&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 15,
+          "name": "15",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=15&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 16,
+          "name": "16",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=16&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 17,
+          "name": "17",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=17&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 18,
+          "name": "18",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=18&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 19,
+          "name": "19",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=19&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 20,
+          "name": "20",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=20&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 21,
+          "name": "21",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=21&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 22,
+          "name": "22",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=22&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 23,
+          "name": "23",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=23&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 24,
+          "name": "24",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=24&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 25,
+          "name": "25",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=25&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 26,
+          "name": "26",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=26&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 27,
+          "name": "27",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=27&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 28,
+          "name": "28",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=28&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 29,
+          "name": "29",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=29&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 30,
+          "name": "30",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=30&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 31,
+          "name": "31",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=31&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 32,
+          "name": "32",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=32&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 33,
+          "name": "33",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=33&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 34,
+          "name": "34",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=34&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 35,
+          "name": "35",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=35&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 36,
+          "name": "36",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=36&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 37,
+          "name": "37",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=37&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 38,
+          "name": "38",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=38&name=hat&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 39,
+          "name": "39",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=39&name=hat&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "eyemakeup",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=eyemakeup&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=eyemakeup&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "glasses",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=glasses&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=3&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=4&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=6&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=7&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=8&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 9,
+          "name": "9",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=9&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 10,
+          "name": "10",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=10&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 11,
+          "name": "11",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=11&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 12,
+          "name": "12",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=12&name=glasses&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 13,
+          "name": "13",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=13&name=glasses&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "nose",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 5001,
+          "name": "5001",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5001&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5002,
+          "name": "5002",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5002&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5003,
+          "name": "5003",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5003&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5004,
+          "name": "5004",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5004&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5005,
+          "name": "5005",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5005&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5006,
+          "name": "5006",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5006&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5007,
+          "name": "5007",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5007&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5008,
+          "name": "5008",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5008&name=nose&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5009,
+          "name": "5009",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5009&name=nose&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "freckles",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=freckles&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=freckles&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "hair",
+      "material": "hair",
+      "colors": [
+        20,
+        27,
+        2,
+        12,
+        9,
+        24,
+        26,
+        6,
+        5,
+        18,
+        28,
+        15,
+        22,
+        30,
+        4,
+        16,
+        3,
+        23,
+        7,
+        8,
+        10,
+        13,
+        21,
+        14,
+        19,
+        1,
+        29,
+        17,
+        25,
+        11
+      ],
+      "colors_advanced": [
+        {
+          "id": 20,
+          "hex": "#A4408B"
+        },
+        {
+          "id": 27,
+          "hex": "#6B57C4"
+        },
+        {
+          "id": 2,
+          "hex": "#333333"
+        },
+        {
+          "id": 12,
+          "hex": "#C7B7A9"
+        },
+        {
+          "id": 9,
+          "hex": "#C09E82"
+        },
+        {
+          "id": 24,
+          "hex": "#FCE9B5"
+        },
+        {
+          "id": 26,
+          "hex": "#4F69B9"
+        },
+        {
+          "id": 6,
+          "hex": "#7D6051"
+        },
+        {
+          "id": 5,
+          "hex": "#835C41"
+        },
+        {
+          "id": 18,
+          "hex": "#FFBD70"
+        },
+        {
+          "id": 28,
+          "hex": "#50C0C2"
+        },
+        {
+          "id": 15,
+          "hex": "#E1A349"
+        },
+        {
+          "id": 22,
+          "hex": "#FFB5EF"
+        },
+        {
+          "id": 30,
+          "hex": "#F3E3D8"
+        },
+        {
+          "id": 4,
+          "hex": "#754C33"
+        },
+        {
+          "id": 16,
+          "hex": "#E29047"
+        },
+        {
+          "id": 3,
+          "hex": "#653235"
+        },
+        {
+          "id": 23,
+          "hex": "#FA8081"
+        },
+        {
+          "id": 7,
+          "hex": "#A68256"
+        },
+        {
+          "id": 8,
+          "hex": "#CC9868"
+        },
+        {
+          "id": 10,
+          "hex": "#9F8A77"
+        },
+        {
+          "id": 13,
+          "hex": "#DBDBDB"
+        },
+        {
+          "id": 21,
+          "hex": "#F2A5AA"
+        },
+        {
+          "id": 14,
+          "hex": "#C9BFC2"
+        },
+        {
+          "id": 19,
+          "hex": "#F8E1C1"
+        },
+        {
+          "id": 1,
+          "hex": "#FCEADE"
+        },
+        {
+          "id": 29,
+          "hex": "#EFE2E9"
+        },
+        {
+          "id": 17,
+          "hex": "#FFA339"
+        },
+        {
+          "id": 25,
+          "hex": "#34973F"
+        },
+        {
+          "id": 11,
+          "hex": "#C9B4A3"
+        }
+      ],
+      "selected_color": 999999,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=2&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=3&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=4&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=5&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=6&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=7&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=8&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 9,
+          "name": "9",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=9&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 10,
+          "name": "10",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=10&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 11,
+          "name": "11",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=11&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 12,
+          "name": "12",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=12&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 13,
+          "name": "13",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=13&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 14,
+          "name": "14",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=14&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 15,
+          "name": "15",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=15&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 16,
+          "name": "16",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=16&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 17,
+          "name": "17",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=17&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 18,
+          "name": "18",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=18&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 19,
+          "name": "19",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=19&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 20,
+          "name": "20",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=20&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 21,
+          "name": "21",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=21&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 22,
+          "name": "22",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=22&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 23,
+          "name": "23",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=23&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 24,
+          "name": "24",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=24&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 25,
+          "name": "25",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=25&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 26,
+          "name": "26",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=26&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 27,
+          "name": "27",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=27&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 28,
+          "name": "28",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=28&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 29,
+          "name": "29",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=29&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 30,
+          "name": "30",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=30&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 31,
+          "name": "31",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=31&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 32,
+          "name": "32",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=32&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 33,
+          "name": "33",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=33&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 34,
+          "name": "34",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=34&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 35,
+          "name": "35",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=35&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 36,
+          "name": "36",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=36&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 37,
+          "name": "37",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=37&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 38,
+          "name": "38",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=38&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 39,
+          "name": "39",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=39&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 40,
+          "name": "40",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=40&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 41,
+          "name": "41",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=41&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 42,
+          "name": "42",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=42&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 43,
+          "name": "43",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=43&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 44,
+          "name": "44",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=44&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 45,
+          "name": "45",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=45&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 46,
+          "name": "46",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=46&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 47,
+          "name": "47",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=47&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 48,
+          "name": "48",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=48&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 49,
+          "name": "49",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=49&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 50,
+          "name": "50",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=50&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 51,
+          "name": "51",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=51&name=hair&sex=female&style=mau",
+          "selected": false
+        },
+        {
+          "id": 52,
+          "name": "52",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=52&name=hair&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "name": "bindi",
+      "selected_color": 0,
+      "templates": [
+        {
+          "id": 0,
+          "name": "0",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=0&name=bindi&sex=female&style=mau",
+          "selected": true
+        },
+        {
+          "id": 1,
+          "name": "1",
+          "url": "https://f.mirror-ai.net/i-vis.png?category=head&color=1&id=1&name=bindi&sex=female&style=mau",
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

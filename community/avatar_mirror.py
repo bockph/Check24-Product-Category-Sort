@@ -3,6 +3,7 @@ import json
 import os
 from PIL import Image
 from io import BytesIO
+import tqdm
 api_key ="cb515bd4ebf943bcaf8f34709d2f95bc"
 from tqdm import tqdm
 def generate_face(png="test_img.jpg",style="mau"):
@@ -46,7 +47,7 @@ def download_resource(dict,folder):
         id = part["id"]
         img_data=requests.get(url).content
         img = Image.open(BytesIO(img_data))
-        img = img.resize((62, 62))
+        img = img.resize((128, 128))
         # img=img.compress_image(img_data)
 
         if not os.path.exists(os.path.join("mirror_data",folder,name)):
@@ -70,33 +71,54 @@ def compress_images(path):
                 out_path = os.path.join(root.replace("body_parts","body_parts_compressed"), file.replace(".jpg",".png"))
                 img.save(out_path, optimize=True, bits=4)
 
+def rename(path):
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if file.endswith((".jpg", ".JPG", ".jpeg", ".JPEG", ".png", ".PNG")):
+                os.rename(os.path.join(root, file),os.path.join(root, file.replace(".png",".jpg")))
+                # with open(os.path.join(root, file), 'rb') as f:
+                #     f.write
+                #     img = Image.open(f)
+                #     img.load()
+                # img = Image.open(os.path.join(root, file))
+                # img = img.resize((62, 62))
+                # out_path = os.path.join(root.replace("body_parts","body_parts_compressed"), file.replace(".jpg",".png"))
+                # img.save(out_path, optimize=True, bits=4)
+
+
     # return img
 
 
 if __name__=='__main__':
-
-    compress_images("mirror_data/body_parts")
     #result = generate_face()
+    # compress_images("mirror_data/clothes_downloaded")
+
+
 
     # result = get_all_parts("TCE6mRO2TP64TwVdfUSm-A")
     # with open('mirror_getallparts_response.json', 'w') as outfile:
     #     json.dump(result, outfile)
 
-    with open('mirror_oldmenhat.json',"rb") as json_file:
+    with open('mirror_ecki.json',"rb") as json_file:
         data = json.load(json_file)
-    #     # clothes = data["clothes"]
+        clothes = data["clothes"]
         tabs = data["tabs"]
-    #     # download_resource(clothes['bottom'][0],"clothes")
-    #     # download_resource(clothes['bottom'][1],"clothes")
-    #     # download_resource(clothes['dress'], "clothes")
-    #     # download_resource(clothes['outer'][0], "clothes")
-    #     # download_resource(clothes['outer'][1], "clothes")
-    #     # download_resource(clothes['shoes'][0], "clothes")
-    #     #
-    #     # download_resource(clothes['upper'][0], "clothes")
-    #     # download_resource(clothes['upper'][1], "clothes")
-        for tab in tqdm(tabs):
-            download_resource(tab, "body_parts_compressed")
+        for key in clothes.keys():
+            for element in tqdm(clothes[key]):
+                download_resource(element,"clothes_downloaded")
+        rename("mirror_data/clothes_downloaded")
+
+        # download_resource(clothes['bottom'][0],"clothes")
+        # download_resource(clothes['bottom'][1],"clothes")
+        # download_resource(clothes['dress'], "clothes")
+        # download_resource(clothes['outer'][0], "clothes")
+        # download_resource(clothes['outer'][1], "clothes")
+        # download_resource(clothes['shoes'][0], "clothes")
+        #
+        # download_resource(clothes['upper'][0], "clothes")
+        # download_resource(clothes['upper'][1], "clothes")
+        # for tab in tqdm(tabs):
+        #     download_resource(tab, "body_parts_compressed")
 
     #test apply part
     # result = apply_part()
